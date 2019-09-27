@@ -49,6 +49,14 @@ class SimpleGeneratorTest {
         assertTrue(result.contains(3), "result contains 3");
     }
 
+    @Test
+    void generate_1_3_backwards() {
+        List<Integer> result = instance.generate(3, 1);
+        assertFalse(result.contains(1), "result contains 1");
+        assertTrue(result.contains(2), "result contains 2");
+        assertTrue(result.contains(3), "result contains 3");
+    }
+
     //TDD test after implementing divisor loop
     // Should return 7901, 7907, 7919
     @Test
