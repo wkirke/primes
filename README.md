@@ -1,7 +1,7 @@
 # primes
 Prime number generator code challenge for UpDox
 
-##Build and Execute
+## Build and Execute
 This project is intended for use with IntelliJ.
 * Clone the project to your computer
 * Tell IntelliJ to open the project via File >> Open.
@@ -15,7 +15,7 @@ This project is intended for use with IntelliJ.
    * Click Run
    * See the console for output.
 
-##Details
+## Details
 See these files:
 * src/main/java/
   * com.wkirke.primeGenerators.PrimeNumberGenerator
